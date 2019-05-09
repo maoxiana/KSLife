@@ -8,14 +8,14 @@
 
 import UIKit
 
-class MainTanBarController: UITabBarController {
+class MainTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.tabBar.isTranslucent = false
 
-        let one = UIViewController()
+        let one = MainPageViewController()
         one.title = "康食"
         let two = UIViewController()
         two.title = "医服务"

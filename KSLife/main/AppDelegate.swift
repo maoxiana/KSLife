@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
 
 
-        let mainVC = MainTanBarController()
+        let mainVC = MainTabBarController()
         self.window?.rootViewController = mainVC
 
         return true
