@@ -17,11 +17,11 @@ class MainTanBarController: UITabBarController {
 
         let one = UIViewController()
         one.title = "康食"
-        let two = UIViewController()
+        let two = MedicalServeViewController()
         two.title = "医服务"
         let three = UIViewController()
         three.title = "打卡"
-        let four = UIViewController()
+        let four = FoodPreserveViewController()
         four.title = "食营圈"
         let five = PersonalInfoViewController()
         five.title = "我的"

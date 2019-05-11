@@ -9,6 +9,23 @@
 import UIKit
 
 class MsgDetailTableViewCell: UITableViewCell {
+    
+    
+    var fontSize: [CGFloat] = [13, 13, 14] {
+        didSet {
+            nameLabel.font = UIFont.systemFont(ofSize: fontSize[0])
+            timeLabel.font = UIFont.systemFont(ofSize: fontSize[1])
+            detailLabel.font = UIFont.systemFont(ofSize: fontSize[2])
+        }
+    }
+    
+    var details: [String] = ["", "", ""] {
+        didSet {
+            nameLabel.text = details[0]
+            timeLabel.text = details[1]
+            detailLabel.text = details[2]
+        }
+    }
 
     private lazy var avatarImage: UIImageView = {
         let imageView = UIImageView()

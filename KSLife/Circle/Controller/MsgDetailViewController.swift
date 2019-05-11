@@ -107,7 +107,7 @@ class MsgDetailViewController: UIViewController {
     
     private lazy var favButton: UIButton = {
         let btn = UIButton()
-        btn.setImage(UIImage(named: "guanzhu1"), for: .normal)
+        btn.setImage(UIImage(named: "guanzhu"), for: .normal)
         btn.setTitle("关注", for: .normal)
         btn.setTitleColor(UIColor.gray, for: .normal)
         btn.titleLabel?.font = UIFont.systemFont(ofSize: 12, weight: .regular)

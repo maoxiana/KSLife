@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,24 @@
 		9ED902C5226DFC850002E3C4 /* ClassExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED902C4226DFC850002E3C4 /* ClassExtensions.swift */; };
 		9ED902C7226E3DBE0002E3C4 /* PersonalPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED902C6226E3DBE0002E3C4 /* PersonalPageViewController.swift */; };
 		9ED902C9226E4B9E0002E3C4 /* PersonalRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED902C8226E4B9E0002E3C4 /* PersonalRecordViewController.swift */; };
+		C42D172422873AD100B45626 /* MsgWriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D171E22873AD100B45626 /* MsgWriteViewController.swift */; };
+		C42D172522873AD100B45626 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D171F22873AD100B45626 /* MessageViewController.swift */; };
+		C42D172622873AD100B45626 /* MsgDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D172022873AD100B45626 /* MsgDetailViewController.swift */; };
+		C42D172722873AD100B45626 /* MsgDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D172322873AD100B45626 /* MsgDetailTableViewCell.swift */; };
+		C42D173322873AEF00B45626 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D172D22873AEF00B45626 /* FormViewController.swift */; };
+		C42D173422873AEF00B45626 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D173022873AEF00B45626 /* CheckBoxView.swift */; };
+		C42D173522873AEF00B45626 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D173122873AEF00B45626 /* FormView.swift */; };
+		C42D173622873AEF00B45626 /* DetailMsgTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D173222873AEF00B45626 /* DetailMsgTableViewCell.swift */; };
+		C42D173922873C3600B45626 /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D173722873C3500B45626 /* PageContentView.swift */; };
+		C42D173A22873C3600B45626 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D173822873C3600B45626 /* PageTitleView.swift */; };
+		C42D173C22873CBF00B45626 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D173B22873CBF00B45626 /* common.swift */; };
+		C42D173E2287451600B45626 /* NavButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D173D2287451600B45626 /* NavButton.swift */; };
+		C42D17402287476300B45626 /* MsgTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D173F2287476300B45626 /* MsgTableViewCell.swift */; };
+		C42D1743228749F300B45626 /* FoodPreserveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D1742228749F300B45626 /* FoodPreserveViewController.swift */; };
+		C42D174522874BFE00B45626 /* MedicalServeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D174422874BFE00B45626 /* MedicalServeViewController.swift */; };
+		C42D174722874C8F00B45626 /* CycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D174622874C8F00B45626 /* CycleView.swift */; };
+		C42D1749228772D600B45626 /* DoctorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D1748228772D600B45626 /* DoctorTableViewCell.swift */; };
+		C42D174B2287814800B45626 /* DoctorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D174A2287814800B45626 /* DoctorViewController.swift */; };
 		F096C7247717E26B6ED328D7 /* Pods_KSLife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACBEB6D9EA3DD466AD96458 /* Pods_KSLife.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +79,24 @@
 		9ED902C6226E3DBE0002E3C4 /* PersonalPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalPageViewController.swift; sourceTree = "<group>"; };
 		9ED902C8226E4B9E0002E3C4 /* PersonalRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalRecordViewController.swift; sourceTree = "<group>"; };
 		B0DDD76CA0499FCD2756DCDB /* Pods-KSLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSLife.debug.xcconfig"; path = "Target Support Files/Pods-KSLife/Pods-KSLife.debug.xcconfig"; sourceTree = "<group>"; };
+		C42D171E22873AD100B45626 /* MsgWriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MsgWriteViewController.swift; sourceTree = "<group>"; };
+		C42D171F22873AD100B45626 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		C42D172022873AD100B45626 /* MsgDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MsgDetailViewController.swift; sourceTree = "<group>"; };
+		C42D172322873AD100B45626 /* MsgDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MsgDetailTableViewCell.swift; sourceTree = "<group>"; };
+		C42D172D22873AEF00B45626 /* FormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		C42D173022873AEF00B45626 /* CheckBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		C42D173122873AEF00B45626 /* FormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		C42D173222873AEF00B45626 /* DetailMsgTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailMsgTableViewCell.swift; sourceTree = "<group>"; };
+		C42D173722873C3500B45626 /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
+		C42D173822873C3600B45626 /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		C42D173B22873CBF00B45626 /* common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
+		C42D173D2287451600B45626 /* NavButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavButton.swift; sourceTree = "<group>"; };
+		C42D173F2287476300B45626 /* MsgTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MsgTableViewCell.swift; sourceTree = "<group>"; };
+		C42D1742228749F300B45626 /* FoodPreserveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPreserveViewController.swift; sourceTree = "<group>"; };
+		C42D174422874BFE00B45626 /* MedicalServeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalServeViewController.swift; sourceTree = "<group>"; };
+		C42D174622874C8F00B45626 /* CycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleView.swift; sourceTree = "<group>"; };
+		C42D1748228772D600B45626 /* DoctorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorTableViewCell.swift; sourceTree = "<group>"; };
+		C42D174A2287814800B45626 /* DoctorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +129,11 @@
 			isa = PBXGroup;
 			children = (
 				9ED902C4226DFC850002E3C4 /* ClassExtensions.swift */,
+				C42D173722873C3500B45626 /* PageContentView.swift */,
+				C42D173822873C3600B45626 /* PageTitleView.swift */,
+				C42D173D2287451600B45626 /* NavButton.swift */,
+				C42D174622874C8F00B45626 /* CycleView.swift */,
+				C42D173B22873CBF00B45626 /* common.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -132,6 +173,9 @@
 			children = (
 				9E1287F12271E0DE004B09F6 /* Shared */,
 				9ED902C2226DFC5B0002E3C4 /* main */,
+				C42D172B22873AEF00B45626 /* Serve */,
+				C42D172822873AE500B45626 /* Punch */,
+				C42D171C22873AD100B45626 /* Circle */,
 				9ED902BE226DF5B50002E3C4 /* User */,
 				9EC69284226DD8B000C40C01 /* Main.storyboard */,
 				9EC69287226DD8B200C40C01 /* Assets.xcassets */,
@@ -185,6 +229,112 @@
 				9ED902BC226DF10A0002E3C4 /* MainTanBarController.swift */,
 			);
 			path = main;
+			sourceTree = "<group>";
+		};
+		C42D171C22873AD100B45626 /* Circle */ = {
+			isa = PBXGroup;
+			children = (
+				C42D172122873AD100B45626 /* Model */,
+				C42D172222873AD100B45626 /* View */,
+				C42D171D22873AD100B45626 /* Controller */,
+			);
+			path = Circle;
+			sourceTree = "<group>";
+		};
+		C42D171D22873AD100B45626 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C42D1742228749F300B45626 /* FoodPreserveViewController.swift */,
+				C42D171E22873AD100B45626 /* MsgWriteViewController.swift */,
+				C42D171F22873AD100B45626 /* MessageViewController.swift */,
+				C42D172022873AD100B45626 /* MsgDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C42D172122873AD100B45626 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C42D172222873AD100B45626 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C42D172322873AD100B45626 /* MsgDetailTableViewCell.swift */,
+				C42D173F2287476300B45626 /* MsgTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C42D172822873AE500B45626 /* Punch */ = {
+			isa = PBXGroup;
+			children = (
+				C42D172922873AE500B45626 /* Model */,
+				C42D172A22873AE500B45626 /* View */,
+				C42D1741228747F900B45626 /* ViewController */,
+			);
+			path = Punch;
+			sourceTree = "<group>";
+		};
+		C42D172922873AE500B45626 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C42D172A22873AE500B45626 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C42D172B22873AEF00B45626 /* Serve */ = {
+			isa = PBXGroup;
+			children = (
+				C42D172E22873AEF00B45626 /* Model */,
+				C42D172F22873AEF00B45626 /* View */,
+				C42D172C22873AEF00B45626 /* Controller */,
+			);
+			path = Serve;
+			sourceTree = "<group>";
+		};
+		C42D172C22873AEF00B45626 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C42D174422874BFE00B45626 /* MedicalServeViewController.swift */,
+				C42D172D22873AEF00B45626 /* FormViewController.swift */,
+				C42D174A2287814800B45626 /* DoctorViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C42D172E22873AEF00B45626 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C42D172F22873AEF00B45626 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C42D173022873AEF00B45626 /* CheckBoxView.swift */,
+				C42D173122873AEF00B45626 /* FormView.swift */,
+				C42D173222873AEF00B45626 /* DetailMsgTableViewCell.swift */,
+				C42D1748228772D600B45626 /* DoctorTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C42D1741228747F900B45626 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		DB25206EB6B1C62080FEBA11 /* Pods */ = {
@@ -361,24 +511,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KSLife/Pods-KSLife-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
-				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-KSLife/Pods-KSLife-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-KSLife/Pods-KSLife-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -392,13 +529,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C42D172422873AD100B45626 /* MsgWriteViewController.swift in Sources */,
+				C42D172522873AD100B45626 /* MessageViewController.swift in Sources */,
+				C42D1749228772D600B45626 /* DoctorTableViewCell.swift in Sources */,
+				C42D173522873AEF00B45626 /* FormView.swift in Sources */,
 				9ED902C5226DFC850002E3C4 /* ClassExtensions.swift in Sources */,
 				9E1287F42271E502004B09F6 /* DottedLineView.swift in Sources */,
+				C42D174B2287814800B45626 /* DoctorViewController.swift in Sources */,
+				C42D172722873AD100B45626 /* MsgDetailTableViewCell.swift in Sources */,
+				C42D174522874BFE00B45626 /* MedicalServeViewController.swift in Sources */,
 				9ED902C9226E4B9E0002E3C4 /* PersonalRecordViewController.swift in Sources */,
+				C42D173322873AEF00B45626 /* FormViewController.swift in Sources */,
+				C42D173C22873CBF00B45626 /* common.swift in Sources */,
+				C42D173E2287451600B45626 /* NavButton.swift in Sources */,
 				9ED902C1226DF5DC0002E3C4 /* PersonalInfoViewController.swift in Sources */,
 				9ED902BD226DF10A0002E3C4 /* MainTanBarController.swift in Sources */,
+				C42D173422873AEF00B45626 /* CheckBoxView.swift in Sources */,
 				9ED902C7226E3DBE0002E3C4 /* PersonalPageViewController.swift in Sources */,
+				C42D173622873AEF00B45626 /* DetailMsgTableViewCell.swift in Sources */,
+				C42D17402287476300B45626 /* MsgTableViewCell.swift in Sources */,
 				9EC69281226DD8B000C40C01 /* AppDelegate.swift in Sources */,
+				C42D174722874C8F00B45626 /* CycleView.swift in Sources */,
+				C42D172622873AD100B45626 /* MsgDetailViewController.swift in Sources */,
+				C42D173922873C3600B45626 /* PageContentView.swift in Sources */,
+				C42D173A22873C3600B45626 /* PageTitleView.swift in Sources */,
+				C42D1743228749F300B45626 /* FoodPreserveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
