@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		9E1287F42271E502004B09F6 /* DottedLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1287F32271E502004B09F6 /* DottedLineView.swift */; };
+		9E1287F82273321A004B09F6 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1287F72273321A004B09F6 /* MainPageViewController.swift */; };
+		9E1287FB227365DC004B09F6 /* ModuleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1287FA227365DC004B09F6 /* ModuleCollectionViewCell.swift */; };
+		9E1288162274B94D004B09F6 /* RecommendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1288142274B94D004B09F6 /* RecommendTableViewCell.swift */; };
+		9E1288172274B94D004B09F6 /* RecommendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E1288152274B94D004B09F6 /* RecommendTableViewCell.xib */; };
+		9E12881B22758E9B004B09F6 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E12881A22758E9B004B09F6 /* UserView.swift */; };
+		9E12881D22758EB4004B09F6 /* UserView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E12881C22758EB4004B09F6 /* UserView.xib */; };
 		9EC69281226DD8B000C40C01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC69280226DD8B000C40C01 /* AppDelegate.swift */; };
 		9EC69286226DD8B000C40C01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69284226DD8B000C40C01 /* Main.storyboard */; };
 		9EC69288226DD8B200C40C01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69287226DD8B200C40C01 /* Assets.xcassets */; };
 		9EC6928B226DD8B200C40C01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC69289226DD8B200C40C01 /* LaunchScreen.storyboard */; };
 		9EC69296226DD8B200C40C01 /* KSLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC69295226DD8B200C40C01 /* KSLifeTests.swift */; };
 		9EC692A1226DD8B200C40C01 /* KSLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC692A0226DD8B200C40C01 /* KSLifeUITests.swift */; };
-		9ED902BD226DF10A0002E3C4 /* MainTanBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED902BC226DF10A0002E3C4 /* MainTanBarController.swift */; };
+		9ED902BD226DF10A0002E3C4 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED902BC226DF10A0002E3C4 /* MainTabBarController.swift */; };
 		9ED902C1226DF5DC0002E3C4 /* PersonalInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED902C0226DF5DC0002E3C4 /* PersonalInfoViewController.swift */; };
 		9ED902C5226DFC850002E3C4 /* ClassExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED902C4226DFC850002E3C4 /* ClassExtensions.swift */; };
 		9ED902C7226E3DBE0002E3C4 /* PersonalPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED902C6226E3DBE0002E3C4 /* PersonalPageViewController.swift */; };
@@ -61,6 +67,12 @@
 		4ACBEB6D9EA3DD466AD96458 /* Pods_KSLife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSLife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		973C00143E5CAA6DCFC89AC2 /* Pods-KSLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSLife.release.xcconfig"; path = "Target Support Files/Pods-KSLife/Pods-KSLife.release.xcconfig"; sourceTree = "<group>"; };
 		9E1287F32271E502004B09F6 /* DottedLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DottedLineView.swift; sourceTree = "<group>"; };
+		9E1287F72273321A004B09F6 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		9E1287FA227365DC004B09F6 /* ModuleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleCollectionViewCell.swift; sourceTree = "<group>"; };
+		9E1288142274B94D004B09F6 /* RecommendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendTableViewCell.swift; sourceTree = "<group>"; };
+		9E1288152274B94D004B09F6 /* RecommendTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommendTableViewCell.xib; sourceTree = "<group>"; };
+		9E12881A22758E9B004B09F6 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		9E12881C22758EB4004B09F6 /* UserView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserView.xib; sourceTree = "<group>"; };
 		9EC6927D226DD8B000C40C01 /* KSLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EC69280226DD8B000C40C01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EC69285226DD8B000C40C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -73,7 +85,7 @@
 		9EC6929C226DD8B200C40C01 /* KSLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EC692A0226DD8B200C40C01 /* KSLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSLifeUITests.swift; sourceTree = "<group>"; };
 		9EC692A2226DD8B200C40C01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9ED902BC226DF10A0002E3C4 /* MainTanBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTanBarController.swift; sourceTree = "<group>"; };
+		9ED902BC226DF10A0002E3C4 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		9ED902C0226DF5DC0002E3C4 /* PersonalInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoViewController.swift; sourceTree = "<group>"; };
 		9ED902C4226DFC850002E3C4 /* ClassExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassExtensions.swift; sourceTree = "<group>"; };
 		9ED902C6226E3DBE0002E3C4 /* PersonalPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalPageViewController.swift; sourceTree = "<group>"; };
@@ -146,6 +158,35 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		9E1287F5227331C0004B09F6 /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				9E1287F9227365CA004B09F6 /* View */,
+				9E1287F6227331D3004B09F6 /* Controller */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		9E1287F6227331D3004B09F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9E1287F72273321A004B09F6 /* MainPageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9E1287F9227365CA004B09F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9E1287FA227365DC004B09F6 /* ModuleCollectionViewCell.swift */,
+				9E1288142274B94D004B09F6 /* RecommendTableViewCell.swift */,
+				9E1288152274B94D004B09F6 /* RecommendTableViewCell.xib */,
+				9E12881A22758E9B004B09F6 /* UserView.swift */,
+				9E12881C22758EB4004B09F6 /* UserView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		9EC69274226DD8B000C40C01 = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +212,7 @@
 		9EC6927F226DD8B000C40C01 /* KSLife */ = {
 			isa = PBXGroup;
 			children = (
+				9E1287F5227331C0004B09F6 /* MainPage */,
 				9E1287F12271E0DE004B09F6 /* Shared */,
 				9ED902C2226DFC5B0002E3C4 /* main */,
 				C42D172B22873AEF00B45626 /* Serve */,
@@ -226,7 +268,7 @@
 			isa = PBXGroup;
 			children = (
 				9EC69280226DD8B000C40C01 /* AppDelegate.swift */,
-				9ED902BC226DF10A0002E3C4 /* MainTanBarController.swift */,
+				9ED902BC226DF10A0002E3C4 /* MainTabBarController.swift */,
 			);
 			path = main;
 			sourceTree = "<group>";
@@ -461,8 +503,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EC6928B226DD8B200C40C01 /* LaunchScreen.storyboard in Resources */,
+				9E1288172274B94D004B09F6 /* RecommendTableViewCell.xib in Resources */,
 				9EC69288226DD8B200C40C01 /* Assets.xcassets in Resources */,
 				9EC69286226DD8B000C40C01 /* Main.storyboard in Resources */,
+				9E12881D22758EB4004B09F6 /* UserView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,6 +577,8 @@
 				C42D172522873AD100B45626 /* MessageViewController.swift in Sources */,
 				C42D1749228772D600B45626 /* DoctorTableViewCell.swift in Sources */,
 				C42D173522873AEF00B45626 /* FormView.swift in Sources */,
+				9E12881B22758E9B004B09F6 /* UserView.swift in Sources */,
+				9E1287F82273321A004B09F6 /* MainPageViewController.swift in Sources */,
 				9ED902C5226DFC850002E3C4 /* ClassExtensions.swift in Sources */,
 				9E1287F42271E502004B09F6 /* DottedLineView.swift in Sources */,
 				C42D174B2287814800B45626 /* DoctorViewController.swift in Sources */,
@@ -545,6 +591,10 @@
 				9ED902C1226DF5DC0002E3C4 /* PersonalInfoViewController.swift in Sources */,
 				9ED902BD226DF10A0002E3C4 /* MainTanBarController.swift in Sources */,
 				C42D173422873AEF00B45626 /* CheckBoxView.swift in Sources */,
+				9E1288162274B94D004B09F6 /* RecommendTableViewCell.swift in Sources */,
+				9ED902C1226DF5DC0002E3C4 /* PersonalInfoViewController.swift in Sources */,
+				9E1287FB227365DC004B09F6 /* ModuleCollectionViewCell.swift in Sources */,
+				9ED902BD226DF10A0002E3C4 /* MainTabBarController.swift in Sources */,
 				9ED902C7226E3DBE0002E3C4 /* PersonalPageViewController.swift in Sources */,
 				C42D173622873AEF00B45626 /* DetailMsgTableViewCell.swift in Sources */,
 				C42D17402287476300B45626 /* MsgTableViewCell.swift in Sources */,
